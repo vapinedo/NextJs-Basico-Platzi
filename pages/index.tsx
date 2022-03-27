@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '@components/Navbar/Navbar'
 
 const apiUrl = '/api/avo'
 
@@ -15,7 +14,6 @@ const Home = () => {
   
   return (
     <div>
-      <Navbar />
       <h1>Home Page</h1>
 
       {productList.map(product => (
