@@ -19,7 +19,7 @@ const Home = () => {
       <h1>Home Page</h1>
 
       {productList.map(product => (
-        <div key={product.id}>{product.name}</div>
+        <div key={product.id}>{product?.name }</div>
       ))}
     </div>
   )
