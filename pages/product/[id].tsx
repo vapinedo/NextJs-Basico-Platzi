@@ -1,6 +1,5 @@
 import React from 'react'
 import { useRouter } from 'next/router'
-
 const apiUrl = '/api/avo/'
 
 const ProductItem = () => {
